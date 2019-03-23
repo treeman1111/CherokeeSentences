@@ -1,0 +1,46 @@
+div#search_container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+div#container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div.wrapper {
+    background-color: beige;
+    border: 0.1em solid black;
+    box-shadow: 0.7em 0.7em gray;
+    margin-bottom: 2em;
+    max-width: 50em;
+}
+
+div.cherokee {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+}
+
+div.english {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+div.work {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+}
+
+div.button {
+    border: 0.1em solid black;
+    cursor: pointer;
+}
